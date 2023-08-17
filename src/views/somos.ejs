@@ -4,85 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
     <%- include('partials/head') %>
-=======
-    <%- include ('partials/head') %>
->>>>>>> 86b2c02d0357ba030bf5ad22d7665613857ffc0b
     <title><%= title%></title>
 </head>
 <body>
     <%- include ('partials/navigation') %>
-<<<<<<< HEAD
     
-    <main>
+    <main class="container text-center justify-content-center align-items-center">
         <section id="sect-01">
-            <div class="left">
-                <img src="team.png" alt="">
-            </div>
-            <div class="right">
-                <h1>¿Quienes Somos?</h1>
-                <p>Somos InnovateTech Solutions, una empresa líder en soluciones
-                tecnológicas innovadoras. Nuestro equipo está compuesto por expertos apasionados por la tecnología, comprometidos en ofrecer resultados excepcionales a nuestros clientes. Nos enfocamos en impulsar el crecimiento y la transformación digital de las empresas a través de soluciones personalizadas y vanguardistas. Con una combinación de experiencia y creatividad, estamos listos para ayudarte a alcanzar tus objetivos tecnológicos y destacar en un mundo digital en constante evolución.<p>
+            <h1 class="display-1 fw-bold">Quienes Somos</h1>
+            <div class="d-flex justify-content-center align-items-center">
+                
+                <!-- Agrega la imagen aquí, ajusta la ruta de "src" según la ubicación de tu imagen -->
+                <img src="/img/logo.png" class="rounded-circle w-30 me-5" alt="logo">
+                <div>
+                    
+                    <p>
+                        Facilitaremos un sistema de gestion que sera operado desde diferentes dispositivos <br>
+                        del restaurante, donde a traves de unos dispositivos moviles y web que seran <br>
+                        manipulados por un administrador, usuarios y empleados con la finalidad de aumentar <br>
+                        la calidad y eficiencia del servicio.
+                    </p>
+                </div>
             </div>
         </section>
 
         <section id="sect-02">
             <h1>Equipo</h1>
-            <div class="cardContainer">
-                <div class="card bg-dark text-white">
-                    <img src="/img/foto1.png" alt="img-perfil">
+            <div class="cardContainer d-flex justify-content-center p-5">
+                <div class="p-4">
+                <div class="card bg-dark text-white d-flex flex-column justify-content-center align-items-center p-4">
+                    
+                    <img src="/img/foto1.png" width="100px" alt="foto1">
                     <h4><b>Maria Paula Embus</b></h4>
                     <h2>Frontend</h2>
                     <div class="redes fs-3">
                         <i class="fa-brands fa-linkedin"></i>
                         <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
                         <i class="fa-brands fa-instagram"></i>
                     </div>
                 </div>
-                <div class="card bg-dark text-white">
-                    <img src="/img/foto3.png" alt="img-perfil">
-                    <h4><b>Sergio Andres Narvaez</b></h4>
-                    <h2>Frontend</h2>
-                    <div class="redes fs-3">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-brands fa-square-facebook"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
                 </div>
-                <div class="card bg-dark text-white">
-                    <img src="/img/foto2.png" alt="img-perfil">
+                <div class="p-4">
+                <div class="card bg-dark text-white align-items-center d-flex flex-column justify-content-center p-4">
+                    <img src="/img/foto2.png" width="100px"  alt="foto2">
                     <h4><b>Karol Tatiana Angarita</b></h4>
                     <h2>Frontend</h2>
                     <div class="redes fs-3">
                         <i class="fa-brands fa-linkedin"></i>
                         <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
                         <i class="fa-brands fa-instagram"></i>
                     </div>
                 </div>
-            </div>
-        </section>
-    
-=======
-    <main class="container vh-100 pt-5 text-center justify-content-center align-items-center">
-        <section>
-            <h1 class="display-1 fw-bold">Quienes Somos</h1>
-            <div class="d-flex justify-content-center align-items-center">
-                
-                <!-- Agrega la imagen aquí, ajusta la ruta de "src" según la ubicación de tu imagen -->
-                <img src="/img/logo.png" class="rounded-circle" width="450px" alt="img 1">
-                <div>
-                    
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima provident repudiandae perspiciatis laboriosam quis veritatis excepturi doloribus. Sit excepturi consequatur, esse repudiandae praesentium, dolores nihil incidunt quas, similique optio quam.
-                    </p>
                 </div>
-            </div>
+                </div>
+                <div class="p-4">
+                    <div class="card bg-dark text-white align-items-center d-flex flex-column justify-content-center p-4">
+                        <img src="/img/foto3.png" width="100px"  alt="foto3">
+                        <h4><b>Sergio Andrez Narvaez</b></h4>
+                        <h2>Frontend</h2>
+                        <div class="redes fs-3">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                    </div>
+            
+                </div>
         </section>
+
+        
     </main>
->>>>>>> 86b2c02d0357ba030bf5ad22d7665613857ffc0b
     <%- include ('partials/footer') %>
 
 </body>
