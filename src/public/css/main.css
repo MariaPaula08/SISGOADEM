@@ -1,4 +1,9 @@
 body {
     color: white;
     background-color: rgb(5, 4, 33);
+<<<<<<< HEAD
 }
+=======
+    overflow-x: hidden;
+}
+>>>>>>> e561f33a1c4919c923a7dd8dff56b6ea65e73c87
